@@ -1,0 +1,34 @@
+title: Association of Virtual Assistants
+description: > # this means to ignore newlines until "baseurl:"
+  Official directory of the Association of Virtual Assistants
+permalink: ':title'
+baseurl: "/directory" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Association of Virtual Assistants # add your name
+author-img: AVA-logo.png # add your photo
+about-author: The mission of the Association of Virtual Assistants is to be the most trusted source of information in the VA industry. We promote a high standard of excellence within our Association, which not only benefits current and future virtual assistants but those we serve - the client. # add description
+social-instagram: associationofvas # add your Twitter handle
+social-facebook: associationofvas # add your Facbook handle
+social-linkedin: associationofvirtualassistants # add your Linkedin handle
+social-email: 	ask@associationofvas.com # add your Email address
+
+# Disqus
+discus-identifier: associationofvas # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
